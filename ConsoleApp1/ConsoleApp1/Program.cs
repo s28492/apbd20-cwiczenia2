@@ -1,6 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Modyfikacja 2");
-Console.WriteLine("Modyfikacja 3");
+List<int> numbers = new List<int>(){1,2,3,4,5,6,7};
+Console.WriteLine(numbers.Average());
