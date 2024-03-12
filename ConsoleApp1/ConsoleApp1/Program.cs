@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-static double getAverage(int[] numbers)
+static double GetAverage(int[] numbers)
 {
     double sum = 0;
     for (int i = 0; i < numbers.Length; i++)
@@ -12,3 +12,5 @@ static double getAverage(int[] numbers)
     
     return numbers.Average(); //hehe
 }
+int[] numbers = {1, 2, 3, 4, 5, 6};
+Console.WriteLine(GetAverage(numbers));
