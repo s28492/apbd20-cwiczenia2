@@ -2,10 +2,10 @@
 
 static double GetAverage(int[] numbers)
 {
-    double sum = 0;
+    double sumaNumerow = 0;
     for (int i = 0; i < numbers.Length; i++)
     {
-        sum += numbers[i];
+        sumaNumerow += numbers[i];
     }
     
     //List<int> numbers = new List<int>(){1,2,3,4,5,6,7};
