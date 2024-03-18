@@ -2,7 +2,6 @@
 
 static double GetAverage(int[] numbers)
 {
-    double sum = 0;
     
     return numbers.Max(); //hehe
 }
